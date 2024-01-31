@@ -7,7 +7,6 @@ import vue from "@vitejs/plugin-vue";
 
 //電腦內開啟所使用
 //要使用這一區塊才可以跑所有vue3終端機指令
-/*
 export default defineConfig({
   plugins: [vue()],
   resolve: {
@@ -16,14 +15,15 @@ export default defineConfig({
     },
   },
 });
-*/
+
 
 //為了使用 gitHub pages 所設定
-
+/*
 export default defineConfig({
-  base: "ClassSchedule_DEMO",
-  plugins: [],
+  base: "/ClassSchedule_DEMO/",
+  plugins: [vue()],
   resolve: {
     alias: [],
   },
 });
+*/
